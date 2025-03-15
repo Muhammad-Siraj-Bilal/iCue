@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "iCue",
+    "slug": "iCue",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/iCueC.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/iCueC.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": {
+        "light": "./assets/images/iCueLogo.png",
+        "dark": "./assets/images/iCueLogo.png"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/iCueLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.appship"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f9065788-fbaf-4530-9ee8-23b39b374a43"
+      }
+    },
+    "owner": "muhammadsirajbilal"
+  }
+}
