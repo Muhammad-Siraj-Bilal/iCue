@@ -17,6 +17,10 @@
       "icon": {
         "light": "./assets/images/iCueLogo.png",
         "dark": "./assets/images/iCueLogo.png"
+      },
+      "bundleIdentifier": "com.appship",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {

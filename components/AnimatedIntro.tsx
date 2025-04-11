@@ -16,6 +16,11 @@ import { ReText } from 'react-native-redash';
 const content = [
   {
     title: 'iCue.',
+    bg: ColorPalette.teal,
+    fontColor: ColorPalette.yellow,
+  },
+  {
+    title: "Let's LEARN.",
     bg: ColorPalette.green,
     fontColor: ColorPalette.pink,
   },
@@ -33,11 +38,6 @@ const content = [
     title: "Let's DISCOVER.",
     bg: ColorPalette.orange,
     fontColor: ColorPalette.blue,
-  },
-  {
-    title: "Let's LEARN.",
-    bg: ColorPalette.teal,
-    fontColor: ColorPalette.yellow,
   },
 ];
 

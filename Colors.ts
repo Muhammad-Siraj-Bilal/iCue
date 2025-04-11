@@ -14,6 +14,7 @@ export const Colors = {
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+    tabBg: '#f2f2f2', // Add this line for light mode
   },
   dark: {
     text: '#ECEDEE',
@@ -22,6 +23,7 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    tabBg: '#333', // Add this line for dark mode
   },
 };
 
