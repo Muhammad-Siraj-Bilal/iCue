@@ -1828,7 +1828,7 @@ export default function ProfileScreen() {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer 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`, // Use env variable
+                    'Authorization': '', // Add API KEY here
                 },
                 body: JSON.stringify({
                     model: 'gpt-3.5-turbo',
